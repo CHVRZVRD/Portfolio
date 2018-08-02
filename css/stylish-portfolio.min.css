@@ -327,6 +327,12 @@ a {
 .rounded {
   border-radius: .15rem !important; }
 
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .bg-video {
   position: absolute;
   top: 0;
